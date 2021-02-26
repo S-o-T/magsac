@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 
 project(MAGSAC LANGUAGES CXX)
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
 
 # indicate if OPENMP should be enabled
 option(USE_OPENMP "Use OPENMP" ON)
